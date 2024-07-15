@@ -5,9 +5,7 @@
   font-family: 'PT Sans', sans-serif;
 }
 
-.home,
-.projects,
-.about {
+.home {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -15,29 +13,19 @@
   font-size: 3rem;
 }
 
-.home {
-  /* background-image: url('/images/package.png'); */
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+.standard-btn {
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: large;
+  transition: all 0.3s ease-out;
+  border-radius: 10px;
 }
 
-.projects {
-  /* background-image: url('/images/package.png'); */
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.about {
-  /* background-image: url('/images/package.png'); */
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+.standard-btn:hover {
+  background: rgb(195, 194, 194);
+  color: #242424;
+  transition: all 0.3s ease-out;
 }
