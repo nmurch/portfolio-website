@@ -1,0 +1,101 @@
+body {
+    background-color: #faf7f7;
+}
+
+input, textarea {
+    padding: 15px 10px;
+    display: block;
+    width: 100%;
+    font-size: 1.3em;
+    line-height: 1.5;
+    background-color: rgb(239, 247, 254);
+    border-radius: 10px;
+    border-color: white;
+    border-bottom: rgb(59, 90, 139) solid 2px;
+    border-style: solid;
+    resize: none;
+    outline: none;
+}
+
+.contact-container {
+    text-align: center;
+    margin: 100px 300px;
+    border: 1px solid rgb(177, 190, 211);
+    border-radius: 30px;
+    background-color: white;
+    color: rgb(24, 23, 23);
+    padding: 30px 120px;
+    box-shadow: 0 0 8px rgba(79, 79, 88, 0.5);
+}
+
+.contact-container > h1 {
+    font-size: 3em;
+    margin: 20px;
+    color:rgb(76, 82, 87)
+}
+
+.contact-container > p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color:rgb(109, 121, 132)
+}
+
+.form-container {
+    height: auto;
+}
+
+.form-row {
+    margin: 10px 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-two-col {
+    flex: 0 0 auto;
+    width: 50%;
+    padding: 25px;
+}
+
+.form-col {
+    flex: 1 0 0;
+    width: 100%;
+    padding: 25px;
+}
+
+.floating-label-container {
+    position: relative;
+}
+
+.floating-label {
+    font-size: 1.5em;
+    color: #cccccc;
+    position: absolute;
+    pointer-events: none;
+    top: 26px;
+    left: 30px;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out
+}
+
+input:focus, textarea:focus {
+    background-color: rgb(225, 241, 254);
+    
+}
+
+input:focus ~ .floating-label, 
+input:not(:focus):valid ~ .floating-label,
+textarea:focus ~ .floating-label, 
+textarea:not(:focus):valid ~ .floating-label {
+    top: -5px;
+    font-size: 1em;
+    color: #1d1c1c;
+    
+}
+
+.submit-btn {
+    padding: 20px 50px;
+    margin-bottom: 35px;
+}
