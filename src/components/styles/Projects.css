@@ -1,47 +1,141 @@
-.project-intro-container {
-    background-color: #acb6cf;
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    font-size: larger;
-}
-  
-.intro-text {
-    margin: 8% 12%;
-    text-align: center;
+h1 span {
+    background-color: #e63462;
     color: white;
+    font-family: 'Phino';
+    padding: 20px 40px;
+    background-clip: padding-box;
+    font-size: 2em;
 }
 
-.description {
-    margin: 50px 0 50px 0;
+.project-header {
+    margin-bottom: 12rem;
 }
 
 .project-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    grid-gap: 5rem;
-    padding: 50px;
-    margin: 50px 25px;
+    margin: 110px 80px;
 }
 
 .project-item {
-    text-align: left;
-    color: gray;
+    position: relative;
+    display: flex;
+    margin-bottom: 14rem;
+    justify-content: flex-start;
 }
 
-#project-img {
-    border: 3px solid black;
-    border-radius: 15px;
-    transition: all 0.5s ease-out;
+.project-left-align {
+    margin-left: 0; 
+    align-self: flex-start;
+} 
+
+.project-right-align {
+    margin-right: 0;
+    align-self: flex-end;
 }
 
-#project-img:hover {
-    transform: scale(1.1);
-    transition: all 0.5s ease-out;
+.project-outline {
+    position: relative;
+    height: 45rem;
+    width: 65rem;
+    transition: all 0.2s;
+    cursor: pointer;
 }
 
-#to-top-btn {
-    margin: 0 20px 20px 0;
-    display: block;
-    margin-left: auto;
+.project-outline.left-outline {
+    background-color: black;
+}
+
+.project-outline.right-outline {
+    background-color: white;
+}
+
+.left-outline {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.right-outline {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.project-outline:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-out;
+}
+
+.project-img {
+    width: 85%;
+    position: relative;
+}
+
+.project-info {
+    position: relative;
+    top: 5rem;
+    height: fit-content;
+    padding: 1rem;
+    z-index: 9999999;
+}
+
+.project-info h2 {
+    position: relative;
+    z-index: 66;
+    font-size: 3.5rem;
+    font-family: 'Phino';
+    margin-top: 2rem;
+}
+
+.project-info p {
+    position: relative;
+    font-size: 1.3rem;
+    font-weight: 200;
+    z-index: 9999;
+    font-family: 'Arial';
+}
+
+.left-info {
+    left: -5rem;
+    color: #e7ecef;
+}
+
+.right-info {
+    text-align: right;
+    right: -5rem;
+}
+
+.left-info > p {
+    margin: 1.5rem 6rem 5rem 0;
+}
+
+.right-info > p {
+    margin: 1.5rem 0 5rem 6rem;
+}
+
+.app-link > a {
+    font-family: 'LotusCoder';
+    font-size: 1.6rem;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    position: relative;
+    margin-top: 2rem;
+    cursor: pointer;
+    color: white;
+    background-color: #e63462;
+    padding: 15px 35px;
+    text-decoration: none !important;
+    transition: all 0.2 ease-in;
+}
+
+.app-link > a:hover {
+    transition: all 0.2 ease-in;
+    background-color: #d80b41;
+}
+
+.right-info .app-link {
+    display: inline-block;
 }

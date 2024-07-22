@@ -3,6 +3,19 @@
   margin: 0;
   padding: 0;
   font-family: 'PT Sans', sans-serif;
+  background-color: transparent;
+}
+
+.main-container {
+  background: linear-gradient(90deg, #ffffff, #fbfbfc, #eff2f5, #dde3ea, #c9d2dd, #b3bfce, #9eadbe, #8b9baf, #7a8ca2, #6e8097, #667990, #63768d);
+  margin: 0;
+  padding: 0;
+}
+
+#to-top-btn {
+  margin: 0 20px 20px 0;
+  display: block;
+  margin-left: auto;
 }
 
 .home {
@@ -22,6 +35,7 @@
   font-size: large;
   transition: all 0.3s ease-out;
   border-radius: 10px;
+  background: rgb(230, 229, 229);
 }
 
 .standard-btn:hover {

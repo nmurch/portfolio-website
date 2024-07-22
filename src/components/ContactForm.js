@@ -28,7 +28,7 @@ const ContactForm = () => {
   return (
     <div className='contact-container'>
         <h1>Contact</h1>
-        <p>Email me with any questions!</p>
+        <p>Let's get in touch</p>
         <div className='form-container'>
             <form ref={form} onSubmit={submitHandler}>
                 <div className='form-row'>

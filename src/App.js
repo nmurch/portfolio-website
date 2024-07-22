@@ -1,23 +1,15 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './components/pages/Home';
-import Projects from './components/pages/Projects';
-import About from './components/pages/About';
-import Contact from './components/pages/Contact';
+import Main from './components/pages/Main';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <>
     <Router>
-      <Navbar />
       <Routes>
-        <Route path='/' exact Component={Home}></Route>
-        <Route path='/projects' Component={Projects}></Route>
-        <Route path='/about' Component={About}></Route>
-        <Route path='/contact' Component={Contact}></Route>
+        <Route path='/' exact Component={Main}></Route>
       </Routes>
       <Footer />
     </Router>

@@ -5,17 +5,6 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className='footer-container'>
-        <div className='footer-logo'>
-          <Link to='/' className='social-logo'>NMURCH <i className='fab fa-typo3' /></Link>
-        </div>
-        <div className='footer-links'>
-          <div className='footer-link-wrapper'>
-              <Link to='/projects'>Projects</Link>
-          </div>
-          <div className='footer-link-wrapper'>
-              <Link to='/about'>About</Link>
-          </div>
-        </div>
         <div className='socials-wrapper'>
           <div className='social-icons'>
             <Link
