@@ -22,44 +22,44 @@
     object-fit: contain;
     justify-content: center;
     color: black;
-    padding-right: 170px;
+    padding-right: 10vw;
     box-sizing: border-box;
 }
 
 .inner-container {
     display: inline-block;
     text-align: left;
-    padding-bottom: 110px;
+    padding-bottom: 10vh;
 }
 
 .typewriter > h1 {
-    font-size: 130px;
-    margin-top: -50px;
+    font-size: 8rem;
+    margin-top: -5vh;
     font-family: 'GoldenRatio';
 }
 
 .greeting {
-    font-size: 50px;
+    font-size: 3.3rem;
     font-family: 'Phino';
     font-weight: bolder;
 }
 
 .intro-content {
     margin-top: 8px;
-    font-size: 30px;
+    font-size: 2rem;
     font-family: 'LotusCoder';
-    width: 60%;
+    width: 65%;
 }
 
 .view-work-btn {
     font-family: 'LotusCoder';
-    font-size: 20px;
+    font-size: 1.5rem;
     padding: 10px 35px;
     background-color: #e63462;
     border-color: transparent;
     color: white;
     display: flex;
-    margin-top: 80px;
+    margin-top: 8vh;
     transition: all 0.2s ease-in;
 }
 
@@ -68,13 +68,13 @@
 }
 
 .typewriter h1 {
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid #e63462; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
+    overflow: hidden;
+    border-right: .11em solid #e63462;
+    white-space: nowrap;
+    margin: 0;
+    letter-spacing: .15em;
     animation: 
-        typing 3.5s steps(30, end),
+        typing 3s steps(30, end),
         blink-caret .5s step-end infinite;
 }
   
@@ -90,7 +90,7 @@
     50% { border-color: #e63462 }
 }
 
-@media screen and (max-width: 1290px) {
+@media screen and (max-width: 1390px) {
     .intro-container {
         padding-right: 50px;
     }
@@ -131,6 +131,24 @@
     }
 }
 
+@media screen and (max-width: 900px) {
+    .inner-container h1 {
+        font-size: 80px;
+    }
+
+    .inner-container > p {
+        font-size: 20px;
+    }
+
+    .typewriter h1 {
+        letter-spacing: 0.1em;
+    }
+
+    .view-work-btn {
+        font-size: 1.1rem;
+    }
+}
+
 @media screen and (max-width: 780px) {
     .inner-container h1 {
         font-size: 70px;
@@ -138,5 +156,65 @@
 
     .inner-container > p {
         font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .inner-container h1 {
+        font-size: 60px;
+    }
+
+    .inner-container > p {
+        font-size: 15px;
+    }
+
+    .view-work-btn {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .inner-container h1 {
+        padding-right: 10px;
+        font-size: 50px;
+    }
+
+    .inner-container > p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .inner-container h1 {
+        padding-right: 0;
+    }
+
+    .typewriter h1 {
+        letter-spacing: normal;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .inner-container h1 {
+        font-size: 40px;
+        padding-right: 0;
+    }
+
+    .greeting {
+        font-size: 15px !important;
+    }
+
+    .inner-container > p {
+        font-size: 11px;
+    }
+
+    .intro-content {
+        width: 80%;
+    }
+
+    .view-work-btn {
+        font-size: 0.8rem;
+        padding: 7px 20px;
+        margin-top: 45px;
     }
 }

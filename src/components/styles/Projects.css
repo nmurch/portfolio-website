@@ -34,10 +34,11 @@ h1 span {
 
 .project-outline {
     position: relative;
-    height: 45rem;
-    width: 65rem;
+    height: 45vw;
+    width: 65vw;
     transition: all 0.2s;
     cursor: pointer;
+    overflow: auto;
 }
 
 .project-outline.left-outline {
@@ -138,4 +139,433 @@ h1 span {
 
 .right-info .app-link {
     display: inline-block;
+}
+
+@media screen and (max-width: 1900px) {
+    .project-outline {
+        height: 43vw;
+        width: 63vw;
+    }
+
+    .project-info h2 {
+        font-size: 3.3rem;
+        margin-top: 1.7rem;
+    }
+    
+    .project-info p {
+        font-size: 1.4rem;
+    }
+    
+    .left-info > p {
+        margin: 3rem 4rem 6rem 0;
+    }
+    
+    .right-info > p {
+        margin: 3rem 0 6rem 4rem;
+    }
+    
+    .app-link > a {
+        font-size: 1.6rem;
+        margin-top: 2rem;
+        padding: 13px 33px;
+    }
+}
+
+@media screen and (max-width: 1850px) {
+    .left-info > p {
+        margin: 3rem 4rem 5rem 0;
+    }
+    
+    .right-info > p {
+        margin: 3rem 0 5rem 4rem;
+    }
+}
+
+@media screen and (max-width: 1770px) {
+    .left-info > p {
+        margin: 3rem 2rem 4rem 0;
+    }
+    
+    .right-info > p {
+        margin: 3rem 0 4rem 2rem;
+    }
+}
+
+@media screen and (max-width: 1750px) {
+    .left-info > p {
+        margin: 3rem 2rem 2rem 0;
+    }
+    
+    .right-info > p {
+        margin: 3rem 0 2rem 2rem;
+    }
+}
+
+@media screen and (max-width: 1690px) {
+    .project-info p {
+        font-size: 1.2rem;
+    }
+    
+    .left-info > p {
+        margin: 2rem 2rem 5rem 0;
+    }
+    
+    .right-info > p {
+        margin: 2rem 0 5rem 2rem;
+    }
+}
+
+@media screen and (max-width: 1615px) {
+    .left-info > p {
+        margin: 2rem 2rem 3rem 0;
+    }
+    
+    .right-info > p {
+        margin: 2rem 0 3rem 2rem;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .left-info > p {
+        margin: 2rem 1.5rem 3rem 0;
+    }
+    
+    .right-info > p {
+        margin: 2rem 0 3rem 1.5rem;
+    }
+    
+    .app-link > a {
+        font-size: 1.4rem;
+        margin-top: 2rem;
+        padding: 10px 30px;
+        letter-spacing: 2px;
+    }
+}
+
+@media screen and (max-width: 1510px) {
+    .project-info p {
+        font-size: 1.2rem;
+    }
+    
+    .left-info > p {
+        margin: 2rem 0.9rem 3rem 0;
+    }
+    
+    .right-info > p {
+        margin: 2rem 0 3rem 0.9rem;
+    }
+}
+
+@media screen and (max-width: 1480px) {
+    .project-info p {
+        font-size: 1.1rem;
+    }
+    
+    .left-info > p {
+        margin: 2rem 0.9rem 3rem 0;
+    }
+    
+    .right-info > p {
+        margin: 2rem 0 3rem 0.9rem;
+    }
+}
+
+@media screen and (max-width: 1390px) {
+    h1 span {
+        font-size: 1.5em;
+    }
+
+    .project-header {
+        margin-bottom: 9.5rem;
+    }
+
+    .project-outline {
+        height: 40vw;
+        width: 60vw;
+    }
+
+    .project-info h2 {
+        font-size: 3rem;
+        margin-top: -1rem;
+    }
+    
+    .project-info p {
+        font-size: 1rem;
+    }
+    
+    .left-info > p {
+        margin: 1.5rem 2.5rem 3rem 0;
+    }
+    
+    .right-info > p {
+        margin: 1.5rem 0 3rem 2.5rem;
+    }
+    
+    .app-link > a {
+        font-size: 1.4rem;
+        letter-spacing: 3px;
+        line-height: 1;
+        margin-top: 1.4rem;
+        padding: 13px 33px;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    .project-info p {
+        font-size: 1rem;
+    }
+    
+    .left-info > p {
+        margin: 2rem 0.6rem 3rem 0;
+    }
+    
+    .right-info > p {
+        margin: 2rem 0 3rem 0.6rem;
+    }
+
+    .app-link > a {
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+        padding: 10px 30px;
+    }
+}
+
+@media screen and (max-width: 1296px) {
+    .project-info h2 {
+        font-size: 2.5rem;
+        margin-top: -1rem;
+    }
+
+    .left-info > p {
+        margin: 2rem 0.4rem 3rem 0;
+    }
+    
+    .right-info > p {
+        margin: 2rem 0 3rem 0.4rem;
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    .project-info h2 {
+        font-size: 2.2rem;
+        margin-top: -1rem;
+    }
+
+    .project-info p {
+        font-size: 0.9rem;
+    }
+    
+    .app-link > a {
+        font-size: 1rem;
+        letter-spacing: 0;
+        padding: 10px 33px;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .left-info > p {
+        margin: 1rem 0.3rem 2rem 0;
+    }
+    
+    .right-info > p {
+        margin: 1rem 0 2rem 0.3rem;
+    }
+
+    .project-info p {
+        font-size: 0.7rem;
+    }
+    
+    .app-link > a {
+        font-size: 1rem;
+        letter-spacing: 0;
+        padding: 10px 33px;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    h1 span {
+        font-size: 1em;
+    }
+    
+    .left-info > p {
+        margin: 1rem 0rem 2rem 0;
+    }
+    
+    .right-info > p {
+        margin: 1rem 0 2rem 0rem;
+    }
+
+    .app-link > a {
+        font-size: 0.8rem;
+        padding: 8px 28px;
+    }
+
+    .left-info {
+        left: -3rem;
+    }
+    
+    .right-info {
+        right: -3rem;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .project-info h2 {
+        font-size: 2rem;
+        margin-top: -2rem;
+    }
+
+    .left-info > p {
+        margin: 0.7rem 0rem 2rem 0;
+    }
+    
+    .right-info > p {
+        margin: 0.7rem 0 2rem 0rem;
+    }
+
+    .project-container {
+        margin: 110px 30px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .project-info h2 {
+        font-size: 1.8rem;
+    }
+
+    .project-info p {
+        font-size: 0.65rem;
+    }
+
+    .left-info > p {
+        margin: 0.7rem 0rem 1rem 0;
+    }
+    
+    .right-info > p {
+        margin: 0.7rem 0 1rem 0rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .app-link > a {
+        font-size: 0.7rem;
+        padding: 8px 23px;
+    }
+
+    .project-info h2 {
+        font-size: 1.7rem;
+        margin-top: -3rem;
+    }
+
+    .project-info p {
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .project-info h2 {
+        font-size: 1.6rem;
+    }
+
+    .project-info p {
+        font-size: 0.5rem;
+    }
+    
+    .app-link > a {
+        font-size: 0.7rem;
+        padding: 6px 15px;
+        margin-top: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .project-info h2 {
+        font-size: 1.5rem;
+        margin-top: -4rem;
+    }
+
+    .project-info p {
+        font-size: 0.45rem;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    h1 span {
+        font-size: 0.7em;
+    }
+
+    .left-info > p {
+        margin: 0.4rem 0rem 1rem 0;
+    }
+    
+    .right-info > p {
+        margin: 0.4rem 0 0.6rem 0rem;
+    }
+
+    .app-link > a {
+        font-size: 0.6rem;
+        padding: 5px 13px;
+        margin-top: 0.4rem;
+    }
+
+    .project-item.project-right-align {
+        margin-left: -30px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    h1 span {
+        font-size: 0.7em;
+        padding: 20px 30px;
+    }
+    
+    .project-info h2 {
+        font-size: 1.3rem;
+        margin-top: -4.5rem;
+    }
+
+    .project-info p {
+        font-size: 0.42rem;
+    }
+    
+    .left-info > p {
+        margin: 0rem 0rem 1rem 0;
+    }
+    
+    .right-info > p {
+        margin: 0rem 0 0.6rem 0rem;
+    }
+
+    .left-info {
+        left: -2.4rem;
+        color: #e7ecef;
+    }
+    
+    .right-info {
+        text-align: right;
+        right: -2.4rem;
+    }
+
+    .app-link > a {
+        font-size: 0.6rem;
+        padding: 4px 10px;
+        margin-top: 0.4rem;
+    }
+
+    .project-item.project-right-align {
+        margin-left: -30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h1 span {
+        font-size: 0.6em;
+        padding: 15px 30px;
+    }
+
+    .project-item.project-right-align {
+        margin-left: -50px;
+    }
 }

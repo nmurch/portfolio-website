@@ -8,8 +8,8 @@
 
 .main-container {
   background: linear-gradient(90deg, #ffffff, #fbfbfc, #eff2f5, #dde3ea, #c9d2dd, #b3bfce, #9eadbe, #8b9baf, #7a8ca2, #6e8097, #667990, #63768d);
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 #to-top-btn {
