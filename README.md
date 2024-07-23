@@ -39,4 +39,4 @@ To run this project locally:
 
 ## License
 
-This project is licensed under the GNU General Public License.
+This project is licensed under the GNU General Public License. See the LICENSE.md file for details.
