@@ -27,7 +27,7 @@ To run this project locally:
 
 ### 2. Navigate to the project directory:
 
-#### cd react-starter-website
+#### cd portfolio-website
 
 ### 3. Install dependencies
 
