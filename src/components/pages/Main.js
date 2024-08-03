@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import Contact from './Contact'
+import Contact from '../Contact'
 import '../../App.css'
 import IntroSection from '../IntroSection'
 import ProjectSection from '../ProjectSection'
